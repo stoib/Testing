@@ -1,7 +1,18 @@
 <html5>
   <title></title>
   <head></head>
-  <body>
-
+  <body onload="myFunction()">>
+    <?php 
+      session_start();
+    ?>
+      <link rel="stylesheet" href="styles.css">
+    <?php
+    include("fun.php");
+    ?>
+    <script>
+      function myFunction() {
+        alert("So its worrying that this page isn't what you thought it was");
+      }
+      </script>
   </body>
 </html5>
